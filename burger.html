@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор бургера</title>
+    <link rel="stylesheet" href="css/burger.css">
+    <script src="js/burger.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <span class="label">Выберите размер бургера</span>
+            <select id="size">
+                <option value="small" selected>Маленький</option>
+                <option value="big">Большой</option>
+            </select>
+        </div>
+        <div class="block">
+            <span class="label">Выберите начинку для бургера</span>
+            <select id="stuffing">
+                <option value="cheese">Сыр</option>
+                <option value="salad">Салат</option>
+                <option value="potato">Картофель</option>
+            </select>
+        </div>
+        <div class="block">
+            <span class="label">Приправа</span>
+            <input type="checkbox" id="flavoring">
+        </div>
+        <div class="block">
+            <span class="label">Майонез</span>
+            <input type="checkbox" id="sauce">
+        </div>
+        <button>Вычислить</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
