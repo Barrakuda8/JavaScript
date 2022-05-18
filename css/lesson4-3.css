@@ -1,0 +1,17 @@
+.container {
+    margin: 100px auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.form_input {
+    margin-top: 20px;
+}
+
+button {
+    margin: 20px;
+    width: 100px;
+}
