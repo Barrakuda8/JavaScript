@@ -54,3 +54,19 @@
     margin: 10px;
     color: black;
 }
+
+.error_block {
+    display:flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+}
+
+.error_text {
+    color: white;
+    font-size: 24px;
+}
+
+.cart {
+    display: flex;
+}
